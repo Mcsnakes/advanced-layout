@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sm.fr.advancedlayoutapp.MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/fragmentContainer">
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter fragment"
+        android:onClick="onAddFragment"/>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remplacer fragment"
+        android:onClick="onReplaceFragment"/>
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="sm.fr.advancedlayoutapp.TestFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="sm.fr.advancedlayoutapp.TestFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

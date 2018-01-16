@@ -20,14 +20,14 @@
             android:textSize="30dp" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editTextUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:text="" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonValide"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"

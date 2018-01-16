@@ -14,8 +14,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import sm.fr.advancedlayoutapp.model.User;
+
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private User user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +36,11 @@ public class DrawerActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        //Instanciation de l'utilisateur
+        this.user = new User();
+
+
     }
 
     @Override
@@ -96,4 +105,24 @@ public class DrawerActivity extends AppCompatActivity
         getFragmentManager().beginTransaction().replace(R.id.fragmentContaier, targetFragment).commit();
 
     }
+
+    /**
+     * Méthode permettant d'acceder à l'utilisateur
+     * @return
+     */
+
+    public User getUser() {
+
+        return this.user;
+    }
+
+    /**
+     * Navigation vers le FragmentB
+     */
+    public void goToFragmentB() {
+
+        navigateToFragment(new FragmentB());
+
+    }
+
 }

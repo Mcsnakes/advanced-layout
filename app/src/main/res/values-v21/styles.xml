@@ -5,4 +5,9 @@
         <item name="windowNoTitle">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+    <style name="AppTheme.NavDrawerTextStyle">
+        <item name="android:textColor">#FF0022</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
 </resources>

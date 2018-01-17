@@ -88,7 +88,6 @@ public class DrawerActivity extends AppCompatActivity
             navigateToFragment( new FragmentInscription() );
         } else if (id == R.id.nav_slideshow) {
             navigateToFragment(new RandomUserFragment() );
-
         } else if (id == R.id.nav_manage) {
             Intent mapIntention = new Intent(this, MapsActivity.class);
             startActivity(mapIntention);

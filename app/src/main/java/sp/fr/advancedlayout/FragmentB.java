@@ -1,14 +1,15 @@
-package sm.fr.advancedlayoutapp;
+package sp.fr.advancedlayout;
 
 
 import android.os.Bundle;
 import android.app.Fragment;
-import android.support.design.widget.NavigationView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+
+import sm.fr.advancedlayoutapp.R;
 
 
 /**
@@ -48,13 +49,6 @@ public class FragmentB extends Fragment {
         TextView textViewUserName = view.findViewById(R.id.textViewFragmentB);
         //Définition du text dans le fragment
         textViewUserName.setText(((DrawerActivity) getActivity()).getUser().getUsername());
-
-
-        View viewMenu = inflater.inflate(R.layout.nav_header_drawer, container, false);
-        test = viewMenu.findViewById(R.id.textViewMenu);
-
-        test.setText(textViewUserName.getText());
-
 
         return view;
     }

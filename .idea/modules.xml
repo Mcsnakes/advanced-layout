@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\Formation.M2I-JAV5-04\AndroidStudioProjects\android-advanced-layout-app-master\AdvancedLayoutApp.iml" filepath="C:\Users\Formation.M2I-JAV5-04\AndroidStudioProjects\android-advanced-layout-app-master\AdvancedLayoutApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-advanced-layout-app-master.iml" filepath="$PROJECT_DIR$/android-advanced-layout-app-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

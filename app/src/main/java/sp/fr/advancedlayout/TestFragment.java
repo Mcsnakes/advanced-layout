@@ -1,4 +1,4 @@
-package sm.fr.advancedlayoutapp;
+package sp.fr.advancedlayout;
 
 
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import sm.fr.advancedlayoutapp.R;
 
 
 /**

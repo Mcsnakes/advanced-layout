@@ -1,11 +1,12 @@
-package sm.fr.advancedlayoutapp;
+package sp.fr.advancedlayout;
 
-import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import sm.fr.advancedlayoutapp.R;
 
 public class MainActivity extends AppCompatActivity {
 

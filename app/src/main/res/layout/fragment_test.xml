@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sm.fr.advancedlayoutapp.TestFragment"
+    tools:context="sp.fr.advancedlayout.TestFragment"
     android:background="@color/colorPrimaryDark">
 
     <!-- TODO: Update blank fragment layout -->

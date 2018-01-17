@@ -1,4 +1,4 @@
-package sm.fr.advancedlayoutapp;
+package sp.fr.advancedlayout;
 
 
 import android.os.Bundle;
@@ -8,7 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
+
+import sm.fr.advancedlayoutapp.R;
 
 
 /**

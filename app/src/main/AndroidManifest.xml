@@ -18,9 +18,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name="sp.fr.advancedlayout.MainActivity"></activity>
         <activity
-            android:name=".DrawerActivity"
+            android:name="sp.fr.advancedlayout.DrawerActivity"
             android:label="@string/title_activity_drawer"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -42,11 +42,11 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name="sp.fr.advancedlayout.MapsActivity"
             android:label="@string/title_activity_maps">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="sm.fr.advancedlayoutapp.DrawerActivity" />
+                android:value="sp.fr.advancedlayout.DrawerActivity" />
         </activity>
     </application>
 

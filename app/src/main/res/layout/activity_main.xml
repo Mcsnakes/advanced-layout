@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sm.fr.advancedlayoutapp.MainActivity"
+    tools:context="sm.fr.advancedlayoutapp.sm.fr.advancedlayout.MainActivity"
     android:orientation="vertical"
     android:id="@+id/fragmentContainer">
 
@@ -24,14 +24,14 @@
 
     <fragment
         android:id="@+id/fragment1"
-        android:name="sm.fr.advancedlayoutapp.TestFragment"
+        android:name="sp.fr.advancedlayout.TestFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
 
     <fragment
         android:id="@+id/fragment2"
-        android:name="sm.fr.advancedlayoutapp.TestFragment"
+        android:name="sp.fr.advancedlayout.TestFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

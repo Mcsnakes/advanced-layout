@@ -3,6 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
+    <item
+        android:id="@+id/login"
+        android:icon="@drawable/ic_log_out_24dp"
+        android:title="Connexion"
+        android:onClick="onLogin"/>
+
+    <item
+        android:id="@+id/Discon"
+        android:icon="@drawable/ic_log_out_24dp"
+        android:title="Disconnect"
+        android:onClick="onLogout"
+        android:visible="false"/>
+
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
@@ -20,6 +33,7 @@
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
             android:title="Tools" />
+
     </group>
 
 </menu>

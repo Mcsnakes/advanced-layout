@@ -1,4 +1,4 @@
-package sm.fr.advancedlayoutapp.model;
+package sp.fr.advancedlayout.model;
 
 /**
  * Created by Formation on 16/01/2018.

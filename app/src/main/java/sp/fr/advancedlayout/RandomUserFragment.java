@@ -1,4 +1,4 @@
-package sm.fr.advancedlayoutapp;
+package sp.fr.advancedlayout;
 
 
 import android.content.Intent;
@@ -24,9 +24,9 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Queue;
 
-import sm.fr.advancedlayoutapp.model.RandomUser;
+import sm.fr.advancedlayoutapp.R;
+import sp.fr.advancedlayout.model.RandomUser;
 
 
 /**

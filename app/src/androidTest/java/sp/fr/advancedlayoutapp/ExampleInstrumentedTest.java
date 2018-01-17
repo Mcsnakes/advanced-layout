@@ -1,4 +1,4 @@
-package sm.fr.advancedlayoutapp;
+package sp.fr.advancedlayoutapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
